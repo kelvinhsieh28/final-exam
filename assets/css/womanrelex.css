@@ -1,0 +1,23 @@
+*{
+    background-color: bisque;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    position: relative;
+}
+
+.p {
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+
+.photo1,
+.photo2,
+.photo3 {
+    width: 25%;
+    /*border-style: solid;*/
+}

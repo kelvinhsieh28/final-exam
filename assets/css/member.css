@@ -1,0 +1,26 @@
+* {
+    background-color: bisque;
+}
+
+.title01 p {
+    margin-left: 3%;
+    margin-top: 1%;
+    font-size: 25px;
+}
+
+.txt01 {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    place-items: center;*/
+    font-size: 20px;
+    border-style: solid;
+    width: 50%;
+}
+
+.buy {
+    background-color: bisque;
+    text-align: center;
+}

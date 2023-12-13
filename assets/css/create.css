@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.form {
+    border-style: solid #a9bcd0;
+    width: 400px;
+    background-color: #457b9d;
+    border-radius: 20px;
+    padding: 50px 80px 80px;
+}
+
+.back {
+    position: relative;
+    white-space: nowrap;
+    width: 30%;
+    border: 2px solid #52b69a;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: all 1s;
+    background-color: black;
+}
+
+.backbutton {
+    text-decoration: none;
+    color: #fff;
+}
+
+.back:hover,
+.backbutton:hover{
+    transform: scale(1.2);
+    background-color: #52b69a;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+.mainform input {
+    background: linear-gradient(90deg, #03a9f4);
+    border: 2px solid #52b69a;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+    background-size: 400%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.sexform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3%;
+}
+
+.button01 {
+    position: relative;
+    white-space: nowrap;
+    width: 20%;
+    border: 2px solid #52b69a;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: all 1s;
+}
+
+.button02 {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button01:hover,
+.button02:hover {
+    transform: scale(1.2);
+    background-color: #52b69a;
+}
