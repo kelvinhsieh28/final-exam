@@ -58,6 +58,7 @@
     background-color: #f9f9f9;
     min-width: 120px;
 }
+ 
 ul {
     margin: 0;
     padding: 0;
@@ -73,12 +74,6 @@ ul.down-menu02 a:hover {
     /* 滑鼠滑入按鈕變色*/
     background-color: #5b7294;
     color: #fff;
-}
-
-ul.down-menu02 li:hover>a {
-    /* 滑鼠移入次選單上層按鈕保持變色*/
-    border-radius: 5px 5px 5px 5px;
-    border-left: 3px solid #c430ab;
 }
 
 ul.down-menu02 {
