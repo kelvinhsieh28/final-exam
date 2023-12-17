@@ -1,5 +1,5 @@
 * {
-    background-color: bisque;
+    background-color: #edede9;
     margin: 0;
     padding: 0;
 }
@@ -17,16 +17,18 @@
 .shop-name {
     color: black;
     text-decoration: none;
+    font-family: 標楷體;
+    font-size: 65px;
 }
 
-.l {
+.store {
     float: left;
     font-size: 40px;
     padding-left: 2%;
     padding-top: 1%;
 }
 
-.r {
+.title-img{
     float: right;
     width: 10%;
 }
@@ -36,6 +38,7 @@
     text-decoration: none;
     justify-content: center;
     text-align: center;
+    font-family: 標楷體;
 }
 
 .select-title {
@@ -49,7 +52,6 @@
     top: 0;
     left: 0;
     transition-delay: 0.1s;
-    z-index: -1;
 }
 
 .down-menu02 {
@@ -89,13 +91,10 @@ ul.down-menu li {
 ul.down-menu ul {
     /*隱藏次選單*/
     opacity: 0;
-    -webkit-transition: opacity 0.3s;
-    transition: opacity 0.3s;
-    background-color: bisque;
 }
 
 ul.down-menu ul a {
-    background-color: bisque;
+    background-color: #edede9;
     text-decoration: none;
     line-height: 40px;
     color: black;
@@ -105,8 +104,6 @@ ul.down-menu ul a {
 ul.down-menu li:hover>ul {
     /*滑鼠滑入展開次選單*/
     opacity: 1;
-    -webkit-transition: opacity 0.3s;
-    transition: opacity 0.3s;
 }
 
 .advertise {

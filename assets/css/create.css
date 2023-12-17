@@ -8,13 +8,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: bisque;
+    background-color: #edede9;
 }
 
 .form {
     border-style: solid #a9bcd0;
     width: 400px;
-    background-color: #457b9d;
+    background-color: #fdf0d5;
     border-radius: 20px;
     padding: 50px 80px 80px;
 }
@@ -22,25 +22,27 @@ body {
 .back {
     position: relative;
     white-space: nowrap;
-    width: 30%;
-    border: 2px solid #52b69a;
+    width: 25%;
+    border: 2px solid black;
     text-align: center;
     line-height: 50px;
     border-radius: 20px;
     cursor: pointer;
     transform: all 1s;
-    background-color: black;
+    background-color: #fdf0d5;
 }
 
 .backbutton {
     text-decoration: none;
-    color: #fff;
+    color: black;
+    font-family: 標楷體;
+    font-size: 25px;
 }
 
 .back:hover,
 .backbutton:hover {
     transform: scale(1.2);
-    background-color: #52b69a;
+    background-color: #d5bdaf;
 }
 
 .title {
@@ -48,11 +50,12 @@ body {
     font-size: 40px;
     text-transform: uppercase;
     line-height: 100px;
+    font-family: 標楷體;
 }
 
 .mainform input {
     background: linear-gradient(90deg, #03a9f4);
-    border: 2px solid #52b69a;
+    border: 2px solid black;
     width: 100%;
     text-align: center;
     font-size: 15px;
@@ -85,7 +88,7 @@ body {
     position: relative;
     white-space: nowrap;
     width: 20%;
-    border: 2px solid #52b69a;
+    border: 2px solid black;
     text-align: center;
     line-height: 50px;
     border-radius: 20px;
@@ -95,11 +98,13 @@ body {
 
 .button02 {
     text-decoration: none;
-    color: #fff;
+    color: black;
+    font-family: 標楷體;
+    font-size: 25px;
 }
 
 .button01:hover,
 .button02:hover {
     transform: scale(1.2);
-    background-color: #52b69a;
+    background-color: #d5bdaf;
 }
