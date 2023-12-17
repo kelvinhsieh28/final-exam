@@ -30,7 +30,7 @@ body {
 }
 
 .back:hover,
-.backbutton:hover{
+.backbutton:hover {
     transform: scale(1.2);
     background-color: #52b69a;
 }

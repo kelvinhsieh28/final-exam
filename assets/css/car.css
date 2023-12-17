@@ -1,11 +1,71 @@
 * {
     background-color: bisque;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    background-color: rgba(0, 0, 0,.2);
+body {
+    background-color: rgba(0, 0, 0, .2);
 }
-.item_header{
+
+
+
+.back {
+    position: relative;
+    white-space: nowrap;
+    width: 30%;
+    border: 2px solid #52b69a;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: all 1s;
+    background-color: black;
+}
+
+.backbutton {
+    text-decoration: none;
+    color: #fff;
+}
+
+.back:hover,
+.backbutton:hover {
+    transform: scale(1.2);
+    background-color: #52b69a;
+}
+
+.shopping {
+    width: 30%;
+    padding-top: 10%;
+}
+
+.page01 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-name {
+    color: black;
+    text-decoration: none;
+}
+
+.l {
+    float: left;
+    font-size: 40px;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+.r {
+    float: right;
+    width: 10%;
+}
+
+.back {
+    float: left;
+}
+
+.item_header {
     display: flex;
     width: 1000px;
     margin: 0 auto;
@@ -14,27 +74,32 @@ body{
     border-radius: 3px;
     padding-left: 10px;
 }
-.item_header div{
+
+.item_header div {
     width: 200px;
     color: #888;
     line-height: 30px;
 }
-.item_header .item_detail{
+
+.item_header .item_detail {
     width: 50%;
 }
-.item_body{
+
+.item_body {
     margin-top: 20px;
     height: 100px;
-    align-items: center;    
+    align-items: center;
 }
-.item_detail img{
+
+.item_detail img {
     width: 80px;
     height: 80px;
     border-radius: 3px;
     /* margin-top: 10px; */
     float: left;
 }
-.item_detail .name{
+
+.item_detail .name {
     margin-left: 100px;
     margin-top: 20px;
-} 
+}

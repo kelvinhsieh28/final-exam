@@ -38,7 +38,7 @@ body {
 }
 
 .back:hover,
-.backbutton:hover{
+.backbutton:hover {
     transform: scale(1.2);
     background-color: #52b69a;
 }
@@ -70,7 +70,8 @@ body {
 .sexform {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
 
 .button {

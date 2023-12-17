@@ -1,26 +1,110 @@
 * {
     background-color: bisque;
+    margin: 0;
+    padding: 0;
 }
 
-.title01 p {
-    margin-left: 3%;
-    margin-top: 1%;
+.shopping {
+    width: 30%;
+    padding-top: 10%;
+}
+
+.page01 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-name {
+    color: black;
+    text-decoration: none;
+}
+
+.l {
+    float: left;
+    font-size: 40px;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+.r {
+    float: right;
+    width: 10%;
+}
+
+.row {
+    padding: 10%;
+    display: block;
+    margin: auto;
+}
+
+.info {
+    flex-direction: column;
+    width: 50%;
+    display: block;
+    margin: auto;
+    background-color: #f2f2f2;
+    border-style: solid;
+
+}
+
+.pagetitle {
+    border-radius: 20px;
+    width: 100%;
+    padding-top: 5%;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    line-height: 110%;
+    margin-bottom: 24px;
+    background-color: #f2f2f2;
+}
+
+.info_field {
+    padding-left: 30%;
+    display: flex;
+    flex-direction: row;
     font-size: 25px;
+    line-height: 135%;
+    padding-bottom: 3%;
+    background-color: #f2f2f2;
 }
 
-.txt01 {
-    /*display: flex;
+.info_title {
+    width: 20%;
+    color: #8f8e8d;
+    word-wrap: break-word;
+    background-color: #f2f2f2;
+}
+
+.info_content {
+    color: #211f1d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #f2f2f2;
+}
+
+.page_button.edit {
+    margin: 24px auto 30px auto;
+}
+
+.page_button {
+    display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    display: grid;
-    place-items: center;*/
-    font-size: 20px;
-    border-style: solid;
-    width: 50%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 92px;
+    background-color: var(--gray-90);
+    color: var(--gray-10);
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
-.buy {
-    background-color: bisque;
-    text-align: center;
+button {
+    -webkit-text-size-adjust: 100%;
+    touch-action: manipulation;
+    cursor: pointer;
+    overflow: visible;
 }
