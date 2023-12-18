@@ -7,42 +7,110 @@
     <link rel="stylesheet" href="../assets/css/index.css">
 </head>
 <body>
-        <div class="page01">
-            <div class="store">
-                <a href="index.html" class="shop-name">OO店</a>
-            </div>
-            <div class="title-img">
-                <a href="car.html"><img src="../assets/image/shopping.png" alt="Description of the image" class="shopping"></a>
-                <a href="login.html"><img src="../assets/image/profile.png" alt="Description of the image" class="shopping"></a>
-            </div>
-        </div>
+  <div class="page01">
+      <div class="store">
+          <a href="index.html" class="shop-name">OO店</a>
+      </div>
+      <div class="title-img">
+          <a href="car.html"><img src="../assets/image/shopping.png" alt="Description of the image" class="shopping"></a>
+          <a href="login.html"><img src="../assets/image/profile.png" alt="Description of the image" class="shopping"></a>
+      </div>
+  </div>
 
-        <div>
-            <marquee direction="left" height="30" scrollamount="10">促銷活動</marquee>
-        </div>
+  <div>
+      <marquee direction="left" height="30" scrollamount="10">促銷活動</marquee>
+  </div>
 
-        <div>
-            <ul class="down-menu">
-                <li><a href="#" class="select-title">男士鞋款</a>
-                    <ul class="down-menu02">
-                        <li><a href="mansport.html">運動</a></li>
-                        <li><a href="manrelax.html">休閒</a></li>
-                    </ul>
-                </li>
+  <div>
+      <ul class="down-menu">
+          <li><a href="#" class="select-title">男士鞋款</a>
+              <ul class="down-menu02">
+                  <li><a href="mansport.html">運動</a></li>
+                  <li><a href="manrelax.html">休閒</a></li>
+              </ul>
+          </li>
 
-                <li><a href="#" class="select-title">女士鞋款</a>
-                    <ul class="down-menu02">
-                        <li><a href="womansport.html">運動</a></li>
-                        <li><a href="womanrelax.html">休閒</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="advertise">
-            
+          <li><a href="#" class="select-title">女士鞋款</a>
+              <ul class="down-menu02">
+                  <li><a href="womansport.html">運動</a></li>
+                  <li><a href="womanrelax.html">休閒</a></li>
+              </ul>
+          </li>
+      </ul>
+  </div>
 
-        </div>
-    
+  <hr>
+  
+  <div class="advertise">
+    <!-- 圖片1 的div -->
+    <div class="singleSlide fade">
+      <img src="../assets/image/mansport202.jpg"/>
+    </div>
+
+    <!-- 圖片2 的div -->
+    <div class="singleSlide fade">
+      <img src="../assets/image/manrelax302.jpg"/>
+    </div>
+
+    <!-- 圖片3 的div -->
+    <div class="singleSlide fade">
+      <img src="../assets/image/womanrelax301.jpg"/>
+    </div>
+
+    <div class="singleSlide fade">
+      <img src="../assets/image/womansport301.jpg"/>
+    </div>
+
+    <!-- 按鈕 -->
+    <button class="prev" onclick="plusSlides(-1)">❮</button>
+    <button class="next" onclick="plusSlides(1)">❯</button>
+  </div>
+
+  <!-- JAVASCRIPT 引入-->
+  <script src="../assets/Js/index.js"></script>
+
+
+  <div class="txt01">
+    <p>熱門商品</p>
+  </div>
+
+  <div class="hotsale">
+
+    <div class="photo1_1">
+      <div class="photo1">
+          <a href="#"><img src="../assets/image/womansport101.jpg" class="p"></a>
+          <p>XXX</p>
+          <p>$100</p>
+      </div>
+      <div class="photo2">
+          <a href="#"><img src="../assets/image/mansport201.jpg" class="p"></a>
+          <p>XXX</p>
+          <p>$100</p>
+      </div>
+      <div class="photo3">
+          <a href="#"><img src="../assets/image/manrelax301.jpg" class="p"></a>
+          <p>XXX</p>
+          <p>$100</p>
+      </div>
+    </div>
+
+    <div class="photo1_1">
+      <div class="photo1">
+          <a href="#"><img src="../assets/image/womansport301.jpg" class="p"></a>
+          <p>XXX</p>
+          <p>$100</p>
+      </div>
+      <div class="photo2">
+          <a href="#"><img src="../assets/image/womanrelax201.jpg" class="p"></a>
+          <p>XXX</p>
+          <p>$100</p>
+      </div>
+      <div class="photo3">
+          <a href="#"><img src="../assets/image/mansport101.jpg" class="p"></a>
+          <p>XXX</p>
+          <p>$100</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

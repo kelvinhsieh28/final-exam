@@ -1,5 +1,9 @@
 * {
     background-color: #edede9;
+
+}
+
+body{
     margin: 0;
     padding: 0;
 }
@@ -28,7 +32,7 @@
     padding-top: 1%;
 }
 
-.title-img{
+.title-img {
     float: right;
     width: 10%;
 }
@@ -61,7 +65,7 @@
     min-width: 120px;
     z-index: 2;
 }
- 
+
 ul {
     margin: 0;
     padding: 0;
@@ -104,19 +108,21 @@ ul.down-menu ul a {
 ul.down-menu li:hover>ul {
     /*滑鼠滑入展開次選單*/
     opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
 }
 
-.advertise {
+.item {
     max-width: 1000px;
     position: relative;
     margin: auto;
-  }
+}
   
 .singleSlide {
-    display: flex;
-  }
+    float: left;
+}
   
-.advertise img {
+.item img {
     width: 100%;
     max-height: 500px;
     object-fit: cover;
@@ -166,43 +172,4 @@ ul.down-menu li:hover>ul {
     100% {
         opacity: 1;
     }
-}
-
-.txt01{
-    margin-left: 5%;
-    font-size: 40px;
-    font-family: 標楷體;
-}
-
-.photo1_1{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2%;
-}
-
-.p {
-    height: 300px;
-    width: 300px;
-    display: block;
-    margin: auto;
-    transform:scale(1,1);
-    transition: all 1s ease-out;
-}
-
-.p:hover{
-    transform:scale(1.1);
-}
-
-.photo1 p,
-.photo2 p,
-.photo3 p{
-    font-size: 30px;
-    text-align: center;
-    margin-top: 5%;
-}
-
-.photo1,
-.photo2,
-.photo3{
-    width: 25%;
 }

@@ -73,7 +73,6 @@ ul {
 
 ul.down-menu02:hover {
     background-color: #1c1c1c;
-    border-top: 2px solid #1b1b1b;
 }
 
 ul.down-menu02 a:hover {
@@ -142,4 +141,5 @@ ul.down-menu li:hover>ul {
 
 .photo p{
     font-size: 25px;
+    text-align: center;
 }
