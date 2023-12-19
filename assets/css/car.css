@@ -113,3 +113,50 @@ body {
     font-size: 20px;
     width: 30%;
 }
+
+.bill{
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #dad7cd;    
+    height: auto;
+}
+
+.link{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 標楷體;
+}
+
+.title{
+    padding-bottom: 2%;
+    font-size: 30px;
+    text-align: left;
+}
+
+.link_title{
+    display: grid;
+}
+
+.link_title a{
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.link_title a:hover{
+    color: #fff;
+}
+
+.gmail{
+    width: 100px;
+}
