@@ -39,42 +39,101 @@
         </ul>
     </div>
 
-    <div class="item">
-        <!-- 圖片1 的div -->
-        <div class="singleSlide fade">
-            <img src="../assets/image/mansport101.jpg">
-        </div>
-    
-        <!-- 圖片2 的div -->
-        <div class="singleSlide fade">
-            <img src="../assets/image/mansport102.jpg"/>
-        </div>
-    
-        <!-- 圖片3 的div -->
-        <div class="singleSlide fade">
-            <img src="../assets/image/mansport103.jpg"/>
-        </div>
-
-        <div class="singleSlide fade">
-            <img src="../assets/image/mansport104.jpg"/>
-        </div>
-
-        <div class="singleSlide fade">
-            <img src="../assets/image/mansport105.jpg"/>
-        </div>
-    
-        <!-- 按鈕 -->
-        <button class="prev" onclick="plusSlides(-1)">❮</button>
-        <button class="next" onclick="plusSlides(1)">❯</button>
-    </div>
-    
-    <!-- JAVASCRIPT 引入-->
     <script src="../assets/Js/item.js"></script>
 
-    <div class="itemname">
-        <p>Nike 男 慢跑鞋 白 黑 粉白</p>
+    <div class="main">
+        <div class="item">
+            <div class="singleSlide_fade">
+                <img src="../assets/image/mansport101.jpg">
+            </div>
+        </div>
+
+        <div class="itemname">
+            <div class="itemtitle">
+                <p>NIKE Air Zoom Pegasus 39 運動跑鞋 (男)</p>
+            </div>
+
+            <br>
+
+            <div class="itemcontent">
+                <p>以敏銳設計助你提升至新的高度</p>
+                <p>輕盈鞋面，適合任何季節穿著</p>
+                <p>助你雙足保持包覆</p>
+            </div>
+
+            <div class="menu">
+                <div class="color">
+                <select>
+                    <option value="First value">請選擇顏色</option>
+                    <option value="Second value">白</option>
+                    <option value="Third value">黑</option>
+                    <option value="Forth value">粉白</option>
+                    <option value="Fifth value">黃綠</option>
+                </select>
+                </div>
+
+                <div class="size">
+                    <select>
+                        <option value="First value">請選擇尺寸</option>
+                        <option value="Second value">US 8</option>
+                        <option value="Third value">US 8.5</option>
+                        <option value="Forth value">US 9</option>
+                        <option value="Fifth value">US 9.5</option>
+                        <option value="Sixth value">US 10</option>
+                    </select>
+                </div>
+            </div>
+            <div class="num">
+                <input type="button" value="-" class="item_button" onclick="minus()">
+                <input type="text" value="1" class="item_num">
+                <input type="button" value="+" class="item_button" onclick="add()">
+            </div>
+
+            <div class="button">
+                <button class="addtocar">加入購物車</button>
+            </div>
+        </div>
     </div>
 
+    <div class="send-block">
+        <!-- 調整留言框大小 -->
+        <textarea class="comment-place" rows="12" placeholder="LEAVE A COMMENTS..."></textarea>
+        <div class="stars">
+            <input type="radio" name="rating" value="1">
+            <input type="radio" name="rating" value="2">
+            <input type="radio" name="rating" value="3">
+            <input type="radio" name="rating" value="4">
+            <input type="radio" name="rating" value="5">
+        </div>
+        <button type="submit" class="send">SEND</button>
+    </div>
+
+    <div class="txt01">
+        <p>猜你喜歡</p>
+      </div>
+    
+      <div class="recommend">
+    
+        <div class="photo1_1">
+          <div class="photo1">
+              <a href="#"><img src="../assets/image/mansport301.jpg" class="p"></a>
+              <p>Nike Flex Experience RN 11 NN 4E 慢跑鞋 </p>
+              <p>$1680</p>
+          </div>
+          <div class="photo2">
+              <a href="#"><img src="../assets/image/mansport201.jpg" class="p"></a>
+              <p>男 NIKE Air Winflo 10 運動跑鞋</p>
+              <p>$2500</p>
+          </div>
+          <div class="photo3">
+              <a href="#"><img src="../assets/image/manrelax301.jpg" class="p"></a>
+              <p>男 NIKE Air force 1</p>
+              <p>$3200</p>
+          </div>
+        </div>
+    <footer>
+
+    </footer>
 
 </body>
 </html>

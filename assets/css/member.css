@@ -36,31 +36,11 @@ body{
     width: 10%;
 }
 
-.back {
-    position: absolute;
-    left: 48%;
-    white-space: nowrap;
-    width: 5%;
-    border: solid black;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 20px;
-    cursor: pointer;
-    transform: all 1s;
-    background-color: #e5e5e5;
-}
-
-.backbutton {
-    text-decoration: none;
-    color: black;
-    font-family: 標楷體;
-    font-size: 25px;
-}
-
-.back:hover,
-.backbutton:hover {
-    transform: scale(1.2);
-    background-color: #fdf0d5;
+.edit {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5%;
 }
 
 .row {
@@ -117,27 +97,25 @@ body{
     background-color: #f2f2f2;
 }
 
-.page_button.edit {
-    margin: 24px auto 30px auto;
-}
-
-.page_button {
+.back,
+.start {
+    padding: 0% 0% 3% 0%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 40px;
-    border: none;
-    border-radius: 92px;
-    background-color: var(--gray-90);
-    color: var(--gray-10);
-    font-size: 14px;
-    text-transform: uppercase;
+    justify-content: space-evenly;
 }
 
-button {
-    -webkit-text-size-adjust: 100%;
-    touch-action: manipulation;
+
+.button02 {
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
     cursor: pointer;
-    overflow: visible;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.button02:hover {
+    transform: scale(1.2);
+    background-color: #dad7cd;
 }

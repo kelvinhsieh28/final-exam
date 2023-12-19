@@ -68,32 +68,32 @@ ul {
     list-style: none;
 }
 
-ul.down-menu02:hover {
+.down-menu02 {
+    font-size: 30px;
+}
+
+.down-menu02:hover {
     background-color: #1c1c1c;
 }
 
-ul.down-menu02 a:hover {
+.down-menu02 a:hover {
     /* 滑鼠滑入按鈕變色*/
     background-color: #5b7294;
     color: #fff;
 }
 
-ul.down-menu02 {
-    font-size: 30px;
-}
-
-ul.down-menu li {
+.down-menu li {
     position: relative;
     white-space: nowrap;
     padding: 0% 5%;
 }
 
-ul.down-menu ul {
+.down-menu ul {
     /*隱藏次選單*/
     opacity: 0;
 }
 
-ul.down-menu ul a {
+.down-menu ul a {
     background-color: #edede9;
     text-decoration: none;
     line-height: 40px;
@@ -101,7 +101,7 @@ ul.down-menu ul a {
     display: block;
 }
 
-ul.down-menu li:hover>ul {
+.down-menu li:hover>ul {
     /*滑鼠滑入展開次選單*/
     opacity: 1;
 }
@@ -110,17 +110,17 @@ ul.down-menu li:hover>ul {
     max-width: 1000px;
     position: relative;
     margin: auto;
-  }
+}
   
 .singleSlide {
     display: flex;
-  }
+}
   
 .advertise img {
     width: 100%;
     max-height: 500px;
     object-fit: cover;
-  }
+}
   
   /* 先給他absolute的位置，再用top來置中 */
 .prev {

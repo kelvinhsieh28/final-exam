@@ -8,32 +8,24 @@ body {
 }
 
 .back {
-    position: relative;
-    white-space: nowrap;
-    width: 5%;
-    margin-left: 12%;
-    border: solid black;
+    padding: 2% 0% 2% 0%;
     text-align: center;
-    line-height: 50px;
-    border-radius: 20px;
-    cursor: pointer;
-    transform: all 1s;
-    background-color: #e5e5e5;
 }
 
-.backbutton {
+.button02 {
+    background-color: #fdf0d5;
     text-decoration: none;
     color: black;
-    font-family: 標楷體;
-    font-size: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
-.back:hover,
-.backbutton:hover {
+.button02:hover {
     transform: scale(1.2);
-    background-color: #fdf0d5;
+    background-color: #dad7cd;
 }
-
 .shopping {
     width: 30%;
     padding-top: 10%;
@@ -70,7 +62,10 @@ body {
     height: 30px;
     background-color: #edede9;
     border-radius: 3px;
-    padding-left: 10px;
+}
+
+.count{
+    text-align: center;
 }
 
 .item_header div {
@@ -80,7 +75,7 @@ body {
 }
 
 .item_header .item_detail {
-    width: 50%;
+    width: 45%;
 }
 
 .item_body {
@@ -93,7 +88,6 @@ body {
     width: 80px;
     height: 80px;
     border-radius: 3px;
-    /* margin-top: 10px; */
     float: left;
 }
 
@@ -101,6 +95,7 @@ body {
     margin-left: 100px;
     margin-top: 20px;
 }
+
 
 .num {
     text-align: center;
@@ -116,5 +111,5 @@ body {
 
 .item_num {
     font-size: 20px;
-    width: 70%;
+    width: 30%;
 }

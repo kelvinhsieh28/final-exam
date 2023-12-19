@@ -20,29 +20,7 @@ body {
 }
 
 .back {
-    position: relative;
-    white-space: nowrap;
-    width: 25%;
-    border: 2px solid black;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 20px;
-    cursor: pointer;
-    transform: all 1s;
-    background-color: #fdf0d5;
-}
-
-.backbutton {
-    text-decoration: none;
-    color: black;
-    font-family: 標楷體;
-    font-size: 25px;
-}
-
-.back:hover,
-.backbutton:hover {
-    transform: scale(1.2);
-    background-color: #d5bdaf;
+    padding: 3% 0% 3% 0%;
 }
 
 .title {
@@ -77,33 +55,23 @@ body {
     font-size: 20px;
 }
 
-.button {
+.create {
     display: flex;
     justify-content: center;
     align-content: center;
     margin-top: 3%;
 }
 
-.button01 {
-    position: relative;
-    white-space: nowrap;
-    width: 20%;
-    border: 2px solid black;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 20px;
-    cursor: pointer;
-    transform: all 1s;
-}
-
 .button02 {
+    background-color: #fdf0d5;
     text-decoration: none;
     color: black;
-    font-family: 標楷體;
-    font-size: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
-.button01:hover,
 .button02:hover {
     transform: scale(1.2);
     background-color: #d5bdaf;

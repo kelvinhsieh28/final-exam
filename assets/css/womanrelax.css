@@ -71,32 +71,32 @@ ul {
     list-style: none;
 }
 
-ul.down-menu02:hover {
+.down-menu02:hover {
     background-color: #1c1c1c;
 }
 
-ul.down-menu02 a:hover {
+.down-menu02 a:hover {
     /* 滑鼠滑入按鈕變色*/
     background-color: #5b7294;
     color: #fff;
 }
 
-ul.down-menu02 {
+.down-menu02 {
     font-size: 30px;
 }
 
-ul.down-menu li {
+.down-menu li {
     position: relative;
     white-space: nowrap;
     padding: 0% 5%;
 }
 
-ul.down-menu ul {
+.down-menu ul {
     /*隱藏次選單*/
     opacity: 0;
 }
 
-ul.down-menu ul a {
+.down-menu ul a {
     background-color: #edede9;
     text-decoration: none;
     line-height: 40px;
@@ -104,7 +104,7 @@ ul.down-menu ul a {
     display: block;
 }
 
-ul.down-menu li:hover>ul {
+.down-menu li:hover>ul {
     /*滑鼠滑入展開次選單*/
     opacity: 1;
     -webkit-transition: opacity 0.3s;
@@ -112,25 +112,22 @@ ul.down-menu li:hover>ul {
 }
 
 .txt01{
-    float: left;
     margin-left: 5%;
     font-size: 40px;
     font-family: 標楷體;
 }
 
-.photo {
+.photo{
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-    position: absolute;
     margin-top: 2%;
-    z-index: -1;
 }
 
 .p {
     height: 300px;
     width: 300px;
-    position: relative;
+    display: block;
+    margin: auto;
     transform:scale(1,1);
     transition: all 1s ease-out;
 }
@@ -139,9 +136,18 @@ ul.down-menu li:hover>ul {
     transform:scale(1.2);
 }
 
-.photo p{
-    font-size: 25px;
+.photo1 p,
+.photo2 p,
+.photo3 p{
+    font-size: 30px;
     text-align: center;
+    margin-top: 5%;
+}
+
+.photo1,
+.photo2,
+.photo3{
+    width: 25%;
 }
  
   
