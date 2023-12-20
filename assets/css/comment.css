@@ -1,7 +1,12 @@
 * {
-    background-color: #edede9;
     margin: 0;
     padding: 0;
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Vina Sans', sans-serif;
+}
+
+body{
+    background-color: #edede9;
 }
 
 .shopping {
@@ -31,4 +36,112 @@
 .title-img{
     float: right;
     width: 10%;
+}
+
+.main{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-style: solid;
+}
+
+.main p{
+    font-size: 40px;
+}
+
+.container{
+    margin: 2% 3% 3% 5%;
+    border-radius: 10px;
+    background-color: #fdf0d5;
+}
+
+.item_header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item_header div {
+    width: 200px;
+    line-height: 30px;
+}
+
+.item_header .item_detail {
+    width: 45%;
+}
+
+.item_body .item_detail{
+    width: 45%;
+
+}
+
+.item_body {
+    margin-top: 20px;
+    height: 100px;
+    color: #888;
+    align-items: center;
+}
+
+.item_detail img {
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+    float: left;
+}
+
+.item_detail .name {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.num {
+    font-size: 20px;
+    text-align: center;
+}
+
+.all p{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 4%;
+}
+
+footer{    
+    clear: both;
+    width: 100%;
+    background-color: #dad7cd;    
+    height: auto;
+}
+
+.link{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 標楷體;
+}
+
+.title{
+    padding-bottom: 2%;
+    font-size: 30px;
+    text-align: left;
+}
+
+.link_title{
+    display: grid;
+}
+
+.link_title a{
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.link_title a:hover{
+    color: #fff;
+}
+
+.gmail{
+    width: 100px;
 }

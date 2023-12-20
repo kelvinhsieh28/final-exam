@@ -12,7 +12,7 @@ body {
 }
 
 .form {
-    border-style: solid #a9bcd0;
+    border: 2px solid black;
     width: 400px;
     background-color: #fdf0d5;
     border-radius: 20px;
@@ -75,4 +75,12 @@ body {
 .button02:hover {
     transform: scale(1.2);
     background-color: #d5bdaf;
+}
+
+.link_title a:hover{
+    color: #fff;
+}
+
+footer{
+    background-color: #fdf0d5;
 }

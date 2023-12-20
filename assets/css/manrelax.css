@@ -1,11 +1,10 @@
 * {
-    background-color: #edede9;
-
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    margin: 0;
-    padding: 0;
+    background-color: #edede9;
 }
 
 .shopping {
@@ -148,4 +147,46 @@ ul {
 .photo2,
 .photo3{
     width: 25%;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    background-color: #dad7cd;    
+    height: auto;
+}
+
+.link{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 標楷體;
+}
+
+.title{
+    padding-bottom: 2%;
+    font-size: 30px;
+    text-align: left;
+}
+
+.link_title{
+    display: grid;
+}
+
+.link_title a{
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.link_title a:hover{
+    color: #fff;
+}
+
+.gmail{
+    width: 100px;
 }

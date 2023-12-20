@@ -113,3 +113,15 @@ body {
     font-size: 20px;
     width: 30%;
 }
+
+.cash{
+    width: 65%;
+    text-align: right;
+    font-size: 30px;
+}
+
+.bill{
+    text-align: right;
+    width: 65%;
+}
+

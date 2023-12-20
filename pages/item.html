@@ -9,7 +9,7 @@
 <body>
     <div class="page01">
         <div class="store">
-            <a href="index.html" class="shop-name">OO店</a>
+            <a href="index.html" class="shop-name">"鞋"槓青年</a>
         </div>
         <div class="title-img">
             <a href="car.html"><img src="../assets/image/shopping.png" alt="Description of the image" class="shopping"></a>
@@ -39,13 +39,36 @@
         </ul>
     </div>
 
-    <script src="../assets/Js/item.js"></script>
+    <hr>
 
     <div class="main">
         <div class="item">
-            <div class="singleSlide_fade">
-                <img src="../assets/image/mansport101.jpg">
+            <!-- 圖片1 的div -->
+            <div class="singleSlide fade">
+                <img src="../assets/image/mansport101.jpg"/>
             </div>
+        
+            <!-- 圖片2 的div -->
+            <div class="singleSlide fade">
+                <img src="../assets/image/mansport102.jpg"/>
+            </div>
+        
+            <!-- 圖片3 的div -->
+            <div class="singleSlide fade">
+                <img src="../assets/image/mansport103.jpg"/>
+            </div>
+        
+            <div class="singleSlide fade">
+                <img src="../assets/image/mansport104.jpg"/>
+            </div>
+
+            <div class="singleSlide fade">
+                <img src="../assets/image/mansport105.jpg"/>
+            </div>
+        
+            <!-- 按鈕 -->
+            <button class="prev" onclick="plusSlides(-1)">❮</button>
+            <button class="next" onclick="plusSlides(1)">❯</button>
         </div>
 
         <div class="itemname">
@@ -95,17 +118,64 @@
         </div>
     </div>
 
-    <div class="send-block">
-        <!-- 調整留言框大小 -->
-        <textarea class="comment-place" rows="12" placeholder="LEAVE A COMMENTS..."></textarea>
-        <div class="stars">
-            <input type="radio" name="rating" value="1">
-            <input type="radio" name="rating" value="2">
-            <input type="radio" name="rating" value="3">
-            <input type="radio" name="rating" value="4">
-            <input type="radio" name="rating" value="5">
+    <div class="reflect">
+        <div class="consumer">
+            <div class="consumer_title">
+            <p>買家評論</p>
+            </div>
+
+            <div class="buyer">
+                <div class="consumer_name">
+                    <p>買家名稱:Jim</p>
+                </div>
+                <br>
+                <div class="respond">
+                    <p>★★★★★</p>
+                    <p>品質:良好</p>
+                    <p>舒適度:極佳</p>
+                    <p>雙腳包覆感極強，非常適合拿來慢跑</p>
+                </div>
+            </div>
+            <div class="buyer">
+                <div class="consumer_name">
+                    <p>買家名稱:Stanley</p>
+                </div>
+                <br>
+                <div class="respond">
+                    <p>★★★★</p>
+                    <p>品質:尚可</p>
+                    <p>舒適度:極佳</p>
+                    <p>雙腳有包覆感，但有一點點的污漬</p>
+                </div>
+            </div>
+            <div class="buyer">
+                <div class="consumer_name">
+                    <p>買家名稱:Andrew</p>
+                </div>
+                <br>
+                <div class="respond">
+                    <p>★★★</p>
+                    <p>品質:普通</p>
+                    <p>舒適度:普通</p>
+                    <p>穿起來就普普通通，還是可以拿來慢跑</p>
+                </div>
+            </div>
         </div>
-        <button type="submit" class="send">SEND</button>
+        
+        <div class="send-block">
+            <p>發表你的評論</p>
+            <!-- 調整留言框大小 -->
+            <textarea class="comment-place" rows="12" placeholder="LEAVE A COMMENTS..."></textarea>
+            <div class="stars">
+                <input type="radio" name="rating" value="1">
+                <input type="radio" name="rating" value="2">
+                <input type="radio" name="rating" value="3">
+                <input type="radio" name="rating" value="4">
+                <input type="radio" name="rating" value="5">
+            </div>
+            <button type="submit" class="send">SEND</button>
+        </div>
+
     </div>
 
     <div class="txt01">
@@ -117,23 +187,50 @@
         <div class="photo1_1">
           <div class="photo1">
               <a href="#"><img src="../assets/image/mansport301.jpg" class="p"></a>
-              <p>Nike Flex Experience RN 11 NN 4E 慢跑鞋 </p>
+              <p>Nike Flex Experience RN 11 NN 4E 慢跑鞋 (男)</p>
               <p>$1680</p>
           </div>
           <div class="photo2">
               <a href="#"><img src="../assets/image/mansport201.jpg" class="p"></a>
-              <p>男 NIKE Air Winflo 10 運動跑鞋</p>
+              <p>NIKE Air Winflo 10 運動跑鞋 (男)</p>
               <p>$2500</p>
           </div>
           <div class="photo3">
               <a href="#"><img src="../assets/image/manrelax301.jpg" class="p"></a>
-              <p>男 NIKE Air force 1</p>
+              <p>NIKE Air force 1 (男)</p>
               <p>$3200</p>
           </div>
         </div>
+
+
     <footer>
-
+        <div class="link">
+            <div>
+            <p class="title">關於我們</p>
+            <div class="link_title">
+                <a href="#">關於我們</a>
+                <a href="#">服務據點</a>
+            </div>
+            </div>
+    
+            <div>
+            <p class="title">支援服務</p>
+            <div class="link_title">
+                <a href="#">退換貨服務</a>
+                <a href="#">常見問題</a>
+            </div>
+            </div>
+    
+            <div>
+            <p class="title">聯絡資訊</p>
+            <div class="link_title">
+                <a href="mailto:kelvinhsieh28@gmail.com">
+                <img class="gmail" src="../assets/image/email.png" alt="Description of the image">
+                </a>
+            </div>
+            </div>
+        </div>
     </footer>
-
+    <script src="../assets/Js/item.js"></script>
 </body>
 </html>
