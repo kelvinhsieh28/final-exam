@@ -38,6 +38,7 @@ body{
     width: 10%;
 }
 
+<<<<<<< HEAD
 .main{
     width: 70%;
     display: block;
@@ -106,6 +107,11 @@ body{
 
 footer{    
     clear: both;
+=======
+footer{    
+    position: absolute;
+    bottom: 0;
+>>>>>>> 0cff3e35bf16b9060ac4d3f1a9703c6c1685fbba
     width: 100%;
     background-color: #dad7cd;    
     height: auto;
