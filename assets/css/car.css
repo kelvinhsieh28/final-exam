@@ -114,7 +114,6 @@ body {
     width: 30%;
 }
 
-<<<<<<< HEAD
 .cash{
     width: 65%;
     text-align: right;
@@ -126,51 +125,3 @@ body {
     width: 65%;
 }
 
-=======
-.bill{
-    text-align: center;
-}
-
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #dad7cd;    
-    height: auto;
-}
-
-.link{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: 標楷體;
-}
-
-.title{
-    padding-bottom: 2%;
-    font-size: 30px;
-    text-align: left;
-}
-
-.link_title{
-    display: grid;
-}
-
-.link_title a{
-    font-size: 20px;
-    text-align: left;
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    margin-top: 5%;
-}
-
-.link_title a:hover{
-    color: #fff;
-}
-
-.gmail{
-    width: 100px;
-}
->>>>>>> 0cff3e35bf16b9060ac4d3f1a9703c6c1685fbba

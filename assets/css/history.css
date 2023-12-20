@@ -39,7 +39,6 @@ body{
     width: 10%;
 }
 
-<<<<<<< HEAD
 .main{
     background-color: aliceblue;
     width: 70%;
@@ -112,14 +111,6 @@ footer{
     background-color: #dad7cd;    
     height: auto;
     margin-top: 2%;
-=======
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #dad7cd;    
-    height: auto;
->>>>>>> 0cff3e35bf16b9060ac4d3f1a9703c6c1685fbba
 }
 
 .link{
