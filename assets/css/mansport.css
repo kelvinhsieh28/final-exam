@@ -151,12 +151,7 @@ ul {
 }
 
 footer{
-<<<<<<< HEAD
     clear: both;
-=======
-    position: absolute;
-    bottom: 0;
->>>>>>> 0cff3e35bf16b9060ac4d3f1a9703c6c1685fbba
     width: 100%;
     background-color: #dad7cd;    
     height: auto;
