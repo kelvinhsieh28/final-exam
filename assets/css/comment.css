@@ -9,9 +9,14 @@ body{
     background-color: #edede9;
 }
 
-.shopping {
+.logo{
     width: 30%;
-    padding-top: 10%;
+    margin-top: -4%;
+}
+
+.shopping {
+    width: 10%;
+    align-self: flex-end;
 }
 
 .page01 {
@@ -23,19 +28,29 @@ body{
     color: black;
     text-decoration: none;
     font-family: 標楷體;
-    font-size: 65px;
+    font-size: 45px;
 }
 
 .store {
-    float: left;
-    font-size: 40px;
-    padding-left: 2%;
-    padding-top: 1%;
+    width: 40%;
 }
 
-.title-img{
-    float: right;
-    width: 10%;
+.store a {
+    color: black;
+    float: left;
+    font-size: 40px;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-decoration: none;
+    font-family: 標楷體;
+}
+
+.title-img {
+    display: block;
+    text-align: right;
+    margin: auto;
+    width: 30%;
+    margin-right: 10%;
 }
 
 .main{
@@ -81,6 +96,7 @@ body{
     align-items: center;
 }
 
+
 .item_detail img {
     width: 70px;
     height: 70px;
@@ -98,20 +114,18 @@ body{
     text-align: center;
 }
 
-.all p{
-    font-size: 20px;
-    text-align: right;
-    padding-right: 4%;
-}
 
-footer{    
+footer {
+    margin-top: 5%;
     clear: both;
     width: 100%;
-    background-color: #dad7cd;    
-    height: auto;
+    height: 100px;
+    background-color: #dad7cd;
+    position: absolute;
+    bottom: 0;
 }
 
-.link{
+.link {
     display: flex;
     text-align: center;
     align-items: center;
@@ -119,18 +133,16 @@ footer{
     font-family: 標楷體;
 }
 
-.title{
+.title {
     padding-bottom: 2%;
-    font-size: 30px;
     text-align: left;
+    color: black;
+    text-decoration: none;
+    display: block;
 }
 
-.link_title{
-    display: grid;
-}
-
-.link_title a{
-    font-size: 20px;
+.title a {
+    font-size: 30px;
     text-align: left;
     text-decoration: none;
     color: black;
@@ -138,10 +150,10 @@ footer{
     margin-top: 5%;
 }
 
-.link_title a:hover{
+.title a:hover {
     color: #fff;
 }
 
-.gmail{
-    width: 100px;
+.gmail {
+    width: 70px;
 }

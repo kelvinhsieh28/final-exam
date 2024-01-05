@@ -3,13 +3,23 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: #edede9;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    max-height: 100vh;
+    position: relative;
+}
+
+.logo {
+    width: 30%;
+    margin-top: -4%;
 }
 
 .shopping {
-    width: 30%;
-    padding-top: 10%;
+    width: 10%;
+    align-self: flex-end;
 }
 
 .page01 {
@@ -21,19 +31,29 @@ body{
     color: black;
     text-decoration: none;
     font-family: 標楷體;
-    font-size: 65px;
+    font-size: 45px;
 }
 
 .store {
+    width: 40%;
+}
+
+.store a {
+    color: black;
     float: left;
     font-size: 40px;
-    padding-left: 2%;
-    padding-top: 1%;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-decoration: none;
+    font-family: 標楷體;
 }
 
 .title-img {
-    float: right;
-    width: 10%;
+    display: block;
+    text-align: right;
+    margin: auto;
+    width: 30%;
+    margin-right: 10%;
 }
 
 .down-menu {
@@ -62,6 +82,7 @@ body{
     position: absolute;
     background-color: #f9f9f9;
     min-width: 120px;
+    font-size: 30px;
 }
 
 ul {
@@ -78,10 +99,6 @@ ul {
     /* 滑鼠滑入按鈕變色*/
     background-color: #5b7294;
     color: #fff;
-}
-
-.down-menu02 {
-    font-size: 30px;
 }
 
 .down-menu li {
@@ -110,13 +127,13 @@ ul {
     transition: opacity 0.3s;
 }
 
-.txt01{
+.txt01 {
     margin-left: 5%;
     font-size: 40px;
     font-family: 標楷體;
 }
 
-.photo{
+.photo {
     display: flex;
     justify-content: space-evenly;
     margin-top: 2%;
@@ -127,17 +144,17 @@ ul {
     width: 300px;
     display: block;
     margin: auto;
-    transform:scale(1,1);
+    transform: scale(1, 1);
     transition: all 1s ease-out;
 }
 
-.p:hover{
-    transform:scale(1.2);
+.p:hover {
+    transform: scale(1.2);
 }
 
 .photo1 p,
 .photo2 p,
-.photo3 p{
+.photo3 p {
     font-size: 30px;
     text-align: center;
     margin-top: 5%;
@@ -145,18 +162,21 @@ ul {
 
 .photo1,
 .photo2,
-.photo3{
+.photo3 {
     width: 25%;
 }
- 
-footer{
+
+footer {
+    margin-top: 5%;
     clear: both;
     width: 100%;
-    background-color: #dad7cd;    
-    height: auto;
+    height: 100px;
+    background-color: #dad7cd;
+    position: absolute;
+    bottom: 0;
 }
 
-.link{
+.link {
     display: flex;
     text-align: center;
     align-items: center;
@@ -164,18 +184,16 @@ footer{
     font-family: 標楷體;
 }
 
-.title{
+.title {
     padding-bottom: 2%;
-    font-size: 30px;
     text-align: left;
+    color: black;
+    text-decoration: none;
+    display: block;
 }
 
-.link_title{
-    display: grid;
-}
-
-.link_title a{
-    font-size: 20px;
+.title a {
+    font-size: 30px;
     text-align: left;
     text-decoration: none;
     color: black;
@@ -183,10 +201,10 @@ footer{
     margin-top: 5%;
 }
 
-.link_title a:hover{
+.title a:hover {
     color: #fff;
 }
 
-.gmail{
-    width: 100px;
+.gmail {
+    width: 70px;
 }
