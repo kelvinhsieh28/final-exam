@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>鞋槓青年</title>
+    <link rel="icon" href="../assets/image/logo.png" type="icon">
     <link rel="stylesheet" href="../assets/css/item.css">
 </head>
+
 <body>
     <div class="page01">
         <div class="store">
-            <a href="index.html" class="shop-name">"鞋"槓青年</a>
+            <a href="index.html"><img src="../assets/image/logo.png" alt="Description of the image" class="logo"></a>
         </div>
         <div class="title-img">
-            <a href="car.html"><img src="../assets/image/shopping.png" alt="Description of the image" class="shopping"></a>
-            <a href="login.html"><img src="../assets/image/profile.png" alt="Description of the image" class="shopping"></a>
+            <a href="car.html"><img src="../assets/image/shopping.png" alt="Description of the image"
+                    class="shopping"></a>
+            <a href="login.html"><img src="../assets/image/profile.png" alt="Description of the image"
+                    class="shopping"></a>
         </div>
     </div>
-  
+
     <div>
-        <marquee direction="left" height="30" scrollamount="10">促銷活動</marquee>
+        <marquee direction="left" height="30" scrollamount="10" class="run">促銷活動</marquee>
     </div>
-  
+
     <div>
         <ul class="down-menu">
             <li><a href="#" class="select-title">男士鞋款</a>
                 <ul class="down-menu02">
-                    <li><a href="mansport.html">運動</a></li>
-                    <li><a href="manrelax.html">休閒</a></li>
+                    <a href="mansport.html">運動</a>
+                    <a href="manrelax.html">休閒</a>
                 </ul>
             </li>
-  
+
             <li><a href="#" class="select-title">女士鞋款</a>
                 <ul class="down-menu02">
-                    <li><a href="womansport.html">運動</a></li>
-                    <li><a href="womanrelax.html">休閒</a></li>
+                    <a href="womansport.html">運動</a>
+                    <a href="womanrelax.html">休閒</a>
                 </ul>
             </li>
         </ul>
@@ -45,27 +50,27 @@
         <div class="item">
             <!-- 圖片1 的div -->
             <div class="singleSlide fade">
-                <img src="../assets/image/mansport101.jpg"/>
+                <img src="../assets/image/mansport101.jpg" />
             </div>
-        
+
             <!-- 圖片2 的div -->
             <div class="singleSlide fade">
-                <img src="../assets/image/mansport102.jpg"/>
+                <img src="../assets/image/mansport102.jpg" />
             </div>
-        
+
             <!-- 圖片3 的div -->
             <div class="singleSlide fade">
-                <img src="../assets/image/mansport103.jpg"/>
-            </div>
-        
-            <div class="singleSlide fade">
-                <img src="../assets/image/mansport104.jpg"/>
+                <img src="../assets/image/mansport103.jpg" />
             </div>
 
             <div class="singleSlide fade">
-                <img src="../assets/image/mansport105.jpg"/>
+                <img src="../assets/image/mansport104.jpg" />
             </div>
-        
+
+            <div class="singleSlide fade">
+                <img src="../assets/image/mansport105.jpg" />
+            </div>
+
             <!-- 按鈕 -->
             <button class="prev" onclick="plusSlides(-1)">❮</button>
             <button class="next" onclick="plusSlides(1)">❯</button>
@@ -84,46 +89,52 @@
                 <p>助你雙足保持包覆</p>
             </div>
 
-            <div class="menu">
-                <div class="color">
-                <select>
-                    <option value="First value">請選擇顏色</option>
-                    <option value="Second value">白</option>
-                    <option value="Third value">黑</option>
-                    <option value="Forth value">粉白</option>
-                    <option value="Fifth value">黃綠</option>
-                </select>
+            <br>
+            <div class="winfish">
+                <p>庫存數量:5</p>
+            </div>
+            <br>
+            <form>
+                <div class="menu">
+                    <div class="color">
+                        <select>
+                            <option value="First value">請選擇顏色</option>
+                            <option value="Second value">白</option>
+                            <option value="Third value">黑</option>
+                            <option value="Forth value">粉白</option>
+                            <option value="Fifth value">黃綠</option>
+                        </select>
+                    </div>
+
+                    <div class="size">
+                        <select>
+                            <option value="First value">請選擇尺寸</option>
+                            <option value="Second value">US 8</option>
+                            <option value="Third value">US 8.5</option>
+                            <option value="Forth value">US 9</option>
+                            <option value="Fifth value">US 9.5</option>
+                            <option value="Sixth value">US 10</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="num">
+                    <input type="button" value="-" class="item_button" onclick="minus()">
+                    <input type="text" value="1" class="item_num">
+                    <input type="button" value="+" class="item_button" onclick="add()">
                 </div>
 
-                <div class="size">
-                    <select>
-                        <option value="First value">請選擇尺寸</option>
-                        <option value="Second value">US 8</option>
-                        <option value="Third value">US 8.5</option>
-                        <option value="Forth value">US 9</option>
-                        <option value="Fifth value">US 9.5</option>
-                        <option value="Sixth value">US 10</option>
-                    </select>
+                <div class="button">
+                    <button type="button" class="addtocar">加入購物車</button>
                 </div>
-            </div>
-            <div class="num">
-                <input type="button" value="-" class="item_button" onclick="minus()">
-                <input type="text" value="1" class="item_num">
-                <input type="button" value="+" class="item_button" onclick="add()">
-            </div>
-
-            <div class="button">
-                <button class="addtocar">加入購物車</button>
-            </div>
         </div>
     </div>
-
+    </form>
     <div class="reflect">
         <div class="consumer">
             <div class="consumer_title">
-            <p>買家評論</p>
+                <p>買家評論</p>
             </div>
-
+            <!-- 一則買家評論 -->
             <div class="buyer">
                 <div class="consumer_name">
                     <p>買家名稱:Jim</p>
@@ -136,6 +147,7 @@
                     <p>雙腳包覆感極強，非常適合拿來慢跑</p>
                 </div>
             </div>
+
             <div class="buyer">
                 <div class="consumer_name">
                     <p>買家名稱:Stanley</p>
@@ -161,7 +173,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="send-block">
             <p>發表你的評論</p>
             <!-- 調整留言框大小 -->
@@ -180,57 +192,40 @@
 
     <div class="txt01">
         <p>猜你喜歡</p>
-      </div>
-    
-      <div class="recommend">
-    
+    </div>
+
+    <div class="recommend">
+
         <div class="photo1_1">
-          <div class="photo1">
-              <a href="#"><img src="../assets/image/mansport301.jpg" class="p"></a>
-              <p>Nike Flex Experience RN 11 NN 4E 慢跑鞋 (男)</p>
-              <p>$1680</p>
-          </div>
-          <div class="photo2">
-              <a href="#"><img src="../assets/image/mansport201.jpg" class="p"></a>
-              <p>NIKE Air Winflo 10 運動跑鞋 (男)</p>
-              <p>$2500</p>
-          </div>
-          <div class="photo3">
-              <a href="#"><img src="../assets/image/manrelax301.jpg" class="p"></a>
-              <p>NIKE Air force 1 (男)</p>
-              <p>$3200</p>
-          </div>
-        </div>
-
-
-    <footer>
-        <div class="link">
-            <div>
-            <p class="title">關於我們</p>
-            <div class="link_title">
-                <a href="#">關於我們</a>
-                <a href="#">服務據點</a>
+            <div class="photo1">
+                <a href="#"><img src="../assets/image/mansport301.jpg" class="p"></a>
+                <p>Nike Flex Experience RN 11 NN 4E 慢跑鞋 (男)</p>
+                <p>$1680</p>
             </div>
+            <div class="photo2">
+                <a href="#"><img src="../assets/image/mansport201.jpg" class="p"></a>
+                <p>NIKE Air Winflo 10 運動跑鞋 (男)</p>
+                <p>$2500</p>
             </div>
-    
-            <div>
-            <p class="title">支援服務</p>
-            <div class="link_title">
-                <a href="#">退換貨服務</a>
-                <a href="#">常見問題</a>
-            </div>
-            </div>
-    
-            <div>
-            <p class="title">聯絡資訊</p>
-            <div class="link_title">
-                <a href="mailto:kelvinhsieh28@gmail.com">
-                <img class="gmail" src="../assets/image/email.png" alt="Description of the image">
-                </a>
-            </div>
+            <div class="photo3">
+                <a href="#"><img src="../assets/image/manrelax301.jpg" class="p"></a>
+                <p>NIKE Air force 1 (男)</p>
+                <p>$3200</p>
             </div>
         </div>
-    </footer>
-    <script src="../assets/Js/item.js"></script>
+
+        <footer>
+            <div class="link">
+                <div>
+                    <p class="title"><a href="summary.html">關於我們</a></p>
+                </div>
+
+                <div>
+                    <p class="title"><a href="mailto:kelvinhsieh28@gmail.com">聯絡資訊</a></p>
+                </div>
+            </div>
+        </footer>
+        <script src="../assets/Js/item.js"></script>
 </body>
+
 </html>

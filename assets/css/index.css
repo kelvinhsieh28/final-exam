@@ -3,13 +3,21 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: #edede9;
 }
 
-.shopping {
+.logo{
     width: 30%;
-    padding-top: 10%;
+    margin-top: -12%;
+    margin-bottom: -5%;
+}
+
+.shopping {
+    width: 10%;
+    margin-top: -5%;
+    margin-bottom: -5%;
+    align-self: flex-end;
 }
 
 .page01 {
@@ -21,19 +29,33 @@ body{
     color: black;
     text-decoration: none;
     font-family: 標楷體;
-    font-size: 65px;
+    font-size: 45px;
 }
 
 .store {
-    float: left;
-    font-size: 40px;
-    padding-left: 2%;
-    padding-top: 1%;
+    width: 40%;
 }
 
-.title-img{
-    float: right;
-    width: 10%;
+.store a {
+    color: black;
+    float: left;
+    font-size: 40px;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-decoration: none;
+    font-family: 標楷體;
+}
+
+.title-img {
+    display: block;
+    text-align: right;
+    margin: auto;
+    width: 30%;
+    margin-right: 10%;
+}
+
+.run{
+    background-color: #adb5bd;
 }
 
 .down-menu {
@@ -63,26 +85,18 @@ body{
     background-color: #f9f9f9;
     min-width: 120px;
     z-index: 2;
+    font-size: 30px;
 }
- 
+
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.down-menu02 {
-    font-size: 30px;
-}
-
-.down-menu02:hover {
-    background-color: #1c1c1c;
-}
-
 .down-menu02 a:hover {
-    /* 滑鼠滑入按鈕變色*/
     background-color: #5b7294;
-    color: #fff;
+    color: #f9f9f9;
 }
 
 .down-menu li {
@@ -92,7 +106,6 @@ ul {
 }
 
 .down-menu ul {
-    /*隱藏次選單*/
     opacity: 0;
 }
 
@@ -105,27 +118,32 @@ ul {
 }
 
 .down-menu li:hover>ul {
-    /*滑鼠滑入展開次選單*/
     opacity: 1;
 }
 
 .advertise {
+    width: 100%;
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
-  
+
+
 .singleSlide {
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
-  
+
 .advertise img {
     width: 100%;
-    max-height: 500px;
+    min-width: 500px;
+    aspect-ratio: square;
+    max-height: 400px;
     object-fit: cover;
+
 }
-  
-  /* 先給他absolute的位置，再用top來置中 */
+
 .prev {
     left: 0;
     border-radius: 3px 0 0 3px;
@@ -137,6 +155,7 @@ ul {
     padding: 16px;
     color: black;
 }
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
@@ -149,14 +168,12 @@ ul {
     color: black;
 }
 
-/* on Hover, 靠上去的時候會有變化 */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: white !important;
 }
 
-/* 淡入淡出 特效*/
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -166,18 +183,19 @@ ul {
     0% {
         opacity: 0.4;
     }
+
     100% {
         opacity: 1;
     }
 }
 
-.txt01{
+.txt01 {
     margin-left: 5%;
     font-size: 40px;
     font-family: 標楷體;
 }
 
-.photo1_1{
+.photo1_1 {
     display: flex;
     justify-content: space-evenly;
     margin-top: 2%;
@@ -188,17 +206,17 @@ ul {
     width: 300px;
     display: block;
     margin: auto;
-    transform:scale(1,1);
+    transform: scale(1, 1);
     transition: all 1s ease-out;
 }
 
-.p:hover{
-    transform:scale(1.1);
+.p:hover {
+    transform: scale(1.1);
 }
 
 .photo1 p,
 .photo2 p,
-.photo3 p{
+.photo3 p {
     font-size: 30px;
     text-align: center;
     margin-top: 5%;
@@ -206,19 +224,19 @@ ul {
 
 .photo1,
 .photo2,
-.photo3{
+.photo3 {
     width: 25%;
 }
 
-footer{ 
+footer {
     margin-top: 5%;
     clear: both;
     width: 100%;
-    background-color: #dad7cd;    
-    height: auto;
+    height: 100px;
+    background-color: #dad7cd;
 }
 
-.link{
+.link {
     display: flex;
     text-align: center;
     align-items: center;
@@ -226,18 +244,16 @@ footer{
     font-family: 標楷體;
 }
 
-.title{
+.title {
     padding-bottom: 2%;
-    font-size: 30px;
     text-align: left;
+    color: black;
+    text-decoration: none;
+    display: block;
 }
 
-.link_title{
-    display: grid;
-}
-
-.link_title a{
-    font-size: 20px;
+.title a {
+    font-size: 30px;
     text-align: left;
     text-decoration: none;
     color: black;
@@ -245,10 +261,10 @@ footer{
     margin-top: 5%;
 }
 
-.link_title a:hover{
+.title a:hover {
     color: #fff;
 }
 
-.gmail{
-    width: 100px;
+.gmail {
+    width: 70px;
 }

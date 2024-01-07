@@ -1,15 +1,19 @@
 * {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #edede9;
+}
+
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
     background-color: #edede9;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    max-height: 100vh;
-    position: relative;
 }
 
 .logo{
@@ -89,6 +93,7 @@ body {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 120px;
+    z-index: 2;
     font-size: 30px;
 }
 
@@ -98,13 +103,9 @@ ul {
     list-style: none;
 }
 
-.down-menu02:hover {
-    background-color: #1c1c1c;
-}
-
 .down-menu02 a:hover {
     background-color: #5b7294;
-    color: #fff;
+    color: #f9f9f9;
 }
 
 .down-menu li {
@@ -127,47 +128,107 @@ ul {
 
 .down-menu li:hover>ul {
     opacity: 1;
-    -webkit-transition: opacity 0.3s;
-    transition: opacity 0.3s;
 }
 
-.txt01 {
-    margin-left: 5%;
-    font-size: 40px;
-    font-family: 標楷體;
-}
-
-.photo {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2%;
-}
-
-.p {
-    height: 300px;
-    width: 300px;
+.img {
+    width: 60%;
     display: block;
     margin: auto;
-    transform: scale(1, 1);
-    transition: all 1s ease-out;
 }
 
-.p:hover {
-    transform: scale(1.2);
+.title1 {
+    display: flex;
+    margin-top: 3%;
 }
 
-.photo1 p,
-.photo2 p,
-.photo3 p {
-    font-size: 30px;
+
+.text {
+    width: 50%;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    position: relative;
+    width: 290px;
+    height: 500px;
+    margin: 15px;
+    perspective: 600px;
+}
+
+.img1 {
+    position: absolute;
+    transform-origin: right;
+    transform: rotateY(0deg);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.caption {
+    position: absolute;
+    z-index: 0;
+    background-color: #caf0f8;
+    color: #6c584c;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform-origin: left;
+    transform: rotateY(90deg);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.caption h2 {
     text-align: center;
-    margin-top: 5%;
 }
 
-.photo1,
-.photo2,
-.photo3 {
+.caption p {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 15px;
+}
+
+.item:hover .img {
+    transform: rotateY(-90deg);
+    opacity: 0;
+}
+
+.item:hover .caption {
+    transform: rotateY(0deg);
+    opacity: 1;
+}
+
+.us {
+    width: 290px;
+    height: 500px;
+}
+
+.intro {
+    display: flex;
+    /*border-style: solid;*/
+    justify-content: space-between;
+}
+
+.intro_icon {
     width: 25%;
+    display: block;
+    margin: auto;
 }
 
 footer {
@@ -176,8 +237,6 @@ footer {
     width: 100%;
     height: 100px;
     background-color: #dad7cd;
-    position: absolute;
-    bottom: 0;
 }
 
 .link {
